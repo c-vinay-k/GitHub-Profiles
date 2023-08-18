@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block title %}Profile{% endblock %}
+
+{% block content %}
+
+
+  <style>
+  .dashboard{
+	  height:170px;
+	  margin:10px;
+      border-radius:45px;
+	  background-color:#F9F4EE;
+  }
+  button.margin-right {
+	  margin-right: 100px;
+  }
+  button.margin-left {
+	  margin-left: 100px;
+  }
+  .padding-left{
+       background-color:white;
+       padding-left:125px;
+   }
+  .text-center {
+        text-align: center;
+  }
+  button{
+      font-size: 14px;
+      border-radius: 4px;
+      border: none;
+      padding:10px;
+      background-color: darkblue;
+      color:white;
+  }
+  button:active {
+            transform: scale(0.98);
+  }
+ </style>
+ 
+ <div class="dashboard">
+       <p>&nbsp;
+        <p style="font-family:sans-serif;color:red;text-align:center">Built by 200050008 200050027</p>
+        <h2 style="font-family:sans-serif;text-align:center">Welcome to GitHub Profiles!</h2>
+        <div class="text-center">
+             <button style="font-family:sans-serif;background-color:#1E90FF;color:white" type="submit">Explore</button>
+             <a href="{% url 'myprofile' %}"> 
+                <button style="font-family:sans-serif;background-color:#1E90FF;color:white" type="submit">My Profile</button>
+             </a>
+             <a href="{% url 'logout' %}">
+                <button style="font-family:sans-serif;background-color:#1E90FF;color:white" type="submit">Logout</button>
+             </a>
+        </div>
+ </div>
+
+ <div class="padding-left" style="font-family:sans-serif">
+     <h2>{{ user.first_name }} {{ user.last_name }} (@ {{ user.username }})</h2>
+     <p><i>{{ user.profile.followers }} followers</i></p>
+ </div>
+
+
+{% endblock %}

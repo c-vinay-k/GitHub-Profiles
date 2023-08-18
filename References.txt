@@ -1,0 +1,26 @@
+Since we don't know much about Django , we had to search for everything and then try to understand its functionailities.
+
+References used:
+
+https://www.geeksforgeeks.org/how-to-create-an-html-button-that-acts-like-a-link/
+https://docs.djangoproject.com/en/3.2/ref/request-response/https://realpython.com/python-requests/#getting-started-with-requests
+https://stackoverflow.com/questions/7682804/django-model-forms-setting-a-required-field
+https://stackoverflow.com/questions/38390177/what-is-a-noreversematch-error-and-how-do-i-fix-it
+https://stackoverflow.com/questions/45745226/django-extending-user-with-userprofile-error-user-has-no-profile
+https://docs.djangoproject.com/en/3.2/ref/contrib/admin/
+https://docs.djangoproject.com/en/3.2/topics/http/urls/
+https://craiga.id.au/2019/03/04/integrityerror-in-django-migration
+https://www.codegrepper.com/code-examples/python/how+to+clear+database+in+django
+https://www.xspdf.com/resolution/53305287.html
+http://www.matrix.umcs.lublin.pl/DOC/python-django-doc/html/ref/contrib/postgres/fields.html
+https://stackoverflow.com/questions/49682244/how-to-pass-a-python-list-of-urls-to-a-django-template-and-make-them-clickable
+https://programmerah.com/attributeerror-nonetype-object-has-no-attribute-append-29199/
+https://stackoverflow.com/questions/52847779/how-to-use-objects-filteruser-request-user-in-django-templates
+https://www.geeksforgeeks.org/django-orm-inserting-updating-deleting-data/
+https://www.youtube.com/watch?v=6DI_7Zja8Zc
+https://askubuntu.com/questions/1351160/modulenotfounderror-no-module-named-pip-vendor-six
+https://devcenter.heroku.com/articles/python-runtimes
+https://askubuntu.com/questions/1115564/wsl-ubuntu-distro-how-to-solve-operation-not-permitted-on-cloning-repository
+https://devcenter.heroku.com/articles/error-codes#h10-app-crashed
+
+
